@@ -1,3 +1,5 @@
+#!/usr/env/bin node
+
 // Store one line comments starting with //
 // Everything in a comment is ignored by the client
 
@@ -59,3 +61,4 @@ console.log(age);
 
 // IF CONDITIONS
 
+// ARRAYS
