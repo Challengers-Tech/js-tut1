@@ -1,0 +1,19 @@
+{
+  "name": "js-tut1",
+  "version": "1.0.0",
+  "description": "Its a tut",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Challengers-Tech/js-tut1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Challengers-Tech/js-tut1/issues"
+  },
+  "homepage": "https://github.com/Challengers-Tech/js-tut1#readme"
+}

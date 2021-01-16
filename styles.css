@@ -1,14 +1,30 @@
-html {
+body {
     font-family: 'Times New Roman', Times, serif;
     color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
 }
+
 #content {
     background-color: peru;
-    width: 100%;
     padding: 20px;
 }
 
 
 .aqua {
-    
+    background-color: aqua;
+}
+
+.aqua-deep {
+    background-color: rgb(0, 200, 200);
+}
+
+
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
