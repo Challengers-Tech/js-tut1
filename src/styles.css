@@ -14,12 +14,16 @@ body {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 228, 179);
     padding: 20px;
+    padding-bottom: 5em;
 }
 
 #footer {
     color: rgb(255, 255, 255);
     background-color: rgb(221, 144, 0);
     padding: 20px;
+    position: fixed;
+    bottom: 0;
+    height: 5em;
 }
 
 
