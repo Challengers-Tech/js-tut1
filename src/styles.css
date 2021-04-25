@@ -66,25 +66,21 @@ body {
 .col-1 {
     width: 25%;
     float: left;
-    display: inline-block;
     padding: 0 0.5em;
 }
 .col-2 {
     width: 50%;
     float: left;
-    display: inline-block;
     padding: 0 0.5em;
 }
 .col-3 {
     width: 75%;
     float: left;
-    display: inline-block;
     padding: 0 0.5em;
 }
 .col-4 {
     width: 100%;
     float: left;
-    display: inline-block;
     padding: 0 0.5em;
 }
 
