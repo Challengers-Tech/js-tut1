@@ -52,6 +52,8 @@ body {
 }
 
 
+/*********/
+/* Grid */
 .row:after {
     content: "";
     display: table;
@@ -100,3 +102,9 @@ body {
     border: 1px black solid;
     border-radius: 0.25em;
 }
+
+
+
+
+/*********/
+

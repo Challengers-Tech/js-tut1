@@ -39,14 +39,39 @@ var person1 = {
     aliases: [ // the `aliases` key points to an array value
         "iAmHokum",
         "ThatGuySlim"
-    ]
+    ],
+    get fullName(){ return this.name.firstName + ' ' + this.lastName; }
 };
 
-// Runs after the page loads
-$(document).ready(() => {
-    console.log("The page is ready! My name is ", person1);
-    console.log("And his name is: " + person1.name.firstName );
+var posts = [{
+    title: "Sample Post", 
+    subtitle: "",
+    body: "This is the body of the post", 
+    createdDate: "2021-01-23T12:13:54"
+}];
 
-    console.log("Person1 is an object, and contains an object `name`", person1.name);
-    console.log("Person1 is an object, and contains an array of `aliases`", person1.aliases);
+// Runs after the page loads
+$(document).ready(function(){
+    // We can use console.log to print to the console window in your browser
+    console.log("The page is ready! Here is Person1 ", person1);
+    console.log("Person1 contains an object `name`", person1.name);
+    console.log("Person1 contains an array of `aliases`", person1.aliases);
+    console.log("Lets see the first alias: ", person1.aliases[0]);
+
+    // setTimeout is a built in function
+    // We can use it to call another function after some amount of time
+    setTimeout(function(){ 
+        console.log("Its been 5 seconds! I'm selecting the default person");
+        selectPerson(person1);
+    }, 5000);
 });
+
+
+
+// Functions are blocks of code that can be declared and used later
+function selectPerson(person){
+    // In Javascript, we can construct strings in 3 different ways
+    // Here, I use the + sign to concatenate 2 strings together
+    var htmlOutput = "<div id='selected-person>Name: " + person.fullName + "</div>";
+    return htmlOutput;
+}
